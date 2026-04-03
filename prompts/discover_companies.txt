@@ -1,0 +1,12 @@
+Perform a Google Search to find companies matching this query: "{query}"
+
+Return a list of up to {limit} companies.
+Output the data strictly in a pipe-separated format with exactly these 7 columns:
+Title | Link | HQ Location | Industry | Company Type | AAPI Relevance | AAPI Notes
+
+Rules for columns:
+- Company Type: Must be exactly one of ["Corporate Sponsor", "Product Donor (Large)", "Product Donor (Small Biz)", "Restaurant / F&B", "Media / PR"]. Choose based on whether they offer money (Corporate Sponsor) or products/food.
+- AAPI Relevance: Must be exactly one of ["High", "Medium", "Low"].
+- Do not use the pipe character (|) inside any of the column values. Use commas instead if needed.
+
+IMPORTANT: Respond ONLY with the pipe-separated data inside a ```csv code block. Do not include the header row, only the data rows. Do not include any conversational text.

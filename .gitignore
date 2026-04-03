@@ -1,0 +1,18 @@
+# Environments
+.env
+venv/
+env/
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data and traces
+*.csv
+*trace*.json
+
+# OS files
+.DS_Store
