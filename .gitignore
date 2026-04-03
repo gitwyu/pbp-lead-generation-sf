@@ -11,7 +11,7 @@ __pycache__/
 *.pyd
 
 # Data and traces
-*.csv
+data/
 *trace*.json
 
 # OS files
