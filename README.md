@@ -70,6 +70,9 @@ python discovery_agent.py --output $COMPANIES_FILE --limit 2 --verbose --num_par
 *   `--num_parallel`: How many async workers to use (speeds up the process significantly).
 *   `--nomock`: Disables local mock data and actually calls Gemini.
 
+__NOTE__: The 16 NYC-specific queries are defined in:
+https://github.com/manestay/pbp-lead-generation/blob/c5e7e36330958858cb8cc489664452086eb9a33a/discovery_agent.py#L391
+For the SF and LA teams, you'll want to revise these for your respective cities (feel free to vibe code it).
 
 ### Step 2: Run the Enrichment Agent
 This script takes the discovered companies from Step 1, reads their websites, and finds the best points of contact (CSR, Philanthropy, or ERG leads).
