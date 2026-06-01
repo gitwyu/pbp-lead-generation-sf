@@ -390,36 +390,36 @@ if __name__ == "__main__":
     # Define all the search categories and their associated queries
     DISCOVERY_PLAN = {
         "F500": [
-            "Fortune 500 companies corporate philanthropy NYC",
-            "national consumer goods brands headquartered in NYC list",
+            "Fortune 500 companies corporate philanthropy San Francisco Bay Area",
+            "national consumer goods brands headquartered in San Francisco Bay Area list",
         ],
         "SME": [
-            "mid-size businesses New York City list",
-            "restaurant groups hospitality companies NYC",
+            "mid-size businesses San Francisco Bay Area list",
+            "restaurant groups hospitality companies San Francisco Bay Area",
         ],
         "AAPI": [
-            "AAPI-owned beauty fashion lifestyle brands list",
-            "Asian American food startups restaurant chains NYC",
+            "AAPI-owned beauty fashion lifestyle brands San Francisco Bay Area list",
+            "Asian American food startups restaurant chains San Francisco Bay Area",
         ],
         "ASIAN_INTL": [
-            "Asian corporations US headquarters list",
-            "Asian international cosmetics snack brands US market",
+            "Asian corporations US headquarters San Francisco Bay Area list",
+            "Asian international cosmetics snack brands US market Bay Area",
         ],
         "BEVERAGE_ALCOHOL": [
-            "Asian American owned beverage spirits alcohol brands list",
-            "NYC breweries distilleries corporate offices list",
+            "Asian American owned beverage spirits alcohol brands San Francisco list",
+            "San Francisco Bay Area breweries distilleries corporate offices list",
         ],
         "COMMUNITY_DEV": [
-            "banks financial institutions community development grants NYC",
-            "Asian American owned banks credit unions NY",
+            "banks financial institutions community development grants San Francisco Bay Area",
+            "Asian American owned banks credit unions San Francisco Bay Area",
         ],
         "TECH_ERGS": [
-            "tech companies NYC Asian employee resource group list",
-            "major technology companies corporate social responsibility NYC",
+            "tech companies San Francisco Bay Area Asian employee resource group list",
+            "major technology companies corporate social responsibility San Francisco",
         ],
         "HOSPITALITY_TRAVEL": [
-            "luxury boutique hotels corporate giving NYC",
-            "airlines travel companies corporate sponsorships USA",
+            "luxury boutique hotels corporate giving San Francisco Bay Area",
+            "airlines travel companies corporate sponsorships San Francisco",
         ],
     }
     if not args.overwrite and os.path.exists(args.output):
