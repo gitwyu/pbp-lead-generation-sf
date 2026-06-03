@@ -389,37 +389,45 @@ if __name__ == "__main__":
 
     # Define all the search categories and their associated queries
     DISCOVERY_PLAN = {
-        "F500": [
-            "Fortune 500 companies corporate philanthropy San Francisco Bay Area",
-            "national consumer goods brands headquartered in San Francisco Bay Area list",
+        "WINE_SPIRITS": [
+            "wineries vineyards silent auction donation San Francisco Bay Area Napa Sonoma",
+            "craft breweries distilleries gift donation program San Francisco Bay Area",
+            "AAPI owned wine spirits beverage brands San Francisco Bay Area",
         ],
-        "SME": [
-            "mid-size businesses San Francisco Bay Area list",
-            "restaurant groups hospitality companies San Francisco Bay Area",
+        "FOOD_COFFEE": [
+            "specialty coffee roasters gift card donation program San Francisco Bay Area",
+            "AAPI owned restaurants food businesses silent auction donation San Francisco",
+            "Bay Area restaurant groups catering companies corporate gifting donation",
         ],
-        "AAPI": [
-            "AAPI-owned beauty fashion lifestyle brands San Francisco Bay Area list",
-            "Asian American food startups restaurant chains San Francisco Bay Area",
+        "EXPERIENCES_TICKETS": [
+            "SF Bay Area sports teams silent auction ticket donation Golden State Warriors Giants 49ers",
+            "concert venues event spaces ticket donation program San Francisco Bay Area",
+            "Bay Area entertainment attractions gift experiences silent auction donation",
         ],
-        "ASIAN_INTL": [
-            "Asian corporations US headquarters San Francisco Bay Area list",
-            "Asian international cosmetics snack brands US market Bay Area",
+        "RETAIL_GIFTCARDS": [
+            "AAPI owned retail boutique shops gift card donation San Francisco Bay Area",
+            "Bay Area local small businesses silent auction gift basket donation program",
+            "Asian American owned beauty wellness spa gift card donation San Francisco",
         ],
-        "BEVERAGE_ALCOHOL": [
-            "Asian American owned beverage spirits alcohol brands San Francisco list",
-            "San Francisco Bay Area breweries distilleries corporate offices list",
+        "SERVICES_WELLNESS": [
+            "Bay Area hotels spas wellness experiences silent auction donation program",
+            "San Francisco fitness studios yoga pilates gift card donation",
+            "Bay Area cooking classes art experiences unique services silent auction donation",
         ],
-        "COMMUNITY_DEV": [
-            "banks financial institutions community development grants San Francisco Bay Area",
-            "Asian American owned banks credit unions San Francisco Bay Area",
+        "CORPORATE_SPONSORS": [
+            "San Francisco Bay Area corporate social responsibility CSR sponsorship nonprofit events",
+            "tech companies Bay Area employee giving matching program nonprofit sponsorship",
+            "Fortune 500 Bay Area headquarters community sponsorship philanthropy program",
         ],
-        "TECH_ERGS": [
-            "tech companies San Francisco Bay Area Asian employee resource group list",
-            "major technology companies corporate social responsibility San Francisco",
+        "FAMILY_OFFICES": [
+            "San Francisco Bay Area family office philanthropic giving AAPI community",
+            "Bay Area private foundation charitable giving Asian American nonprofits",
+            "Silicon Valley family office impact investing community sponsorship",
         ],
-        "HOSPITALITY_TRAVEL": [
-            "luxury boutique hotels corporate giving San Francisco Bay Area",
-            "airlines travel companies corporate sponsorships San Francisco",
+        "AAPI_COMMUNITY": [
+            "AAPI owned businesses San Francisco Bay Area community giving silent auction",
+            "Asian American Chamber of Commerce San Francisco Bay Area member businesses",
+            "Asian American nonprofit corporate partners sponsors San Francisco Bay Area",
         ],
     }
     if not args.overwrite and os.path.exists(args.output):
