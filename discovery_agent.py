@@ -427,18 +427,35 @@ if __name__ == "__main__":
             "pottery ceramics studios San Francisco Bay Area class donation silent auction",
             "Bay Area cooking classes culinary experiences gift donation silent auction",
         ],
-        # Focused on hospitality and culinary industry CSR - best fit for PbP mission.
+        # Broadened beyond hospitality/culinary to capture more corporate cash sponsors.
+        # Includes tech, finance, retail, and healthcare — all active in Bay Area philanthropy.
         # Note: team member to cross-reference with Built In SF list for additional leads.
         "CORPORATE_SPONSORS": [
             "San Francisco Bay Area hospitality culinary industry corporate sponsorship nonprofit",
             "restaurant food beverage companies Bay Area CSR community giving program",
             "hotel groups hospitality companies San Francisco corporate social responsibility sponsorship",
-            "culinary industry foundations grants Bay Area nonprofit event sponsorship",
+            "tech companies San Francisco Bay Area nonprofit gala sponsorship community giving",
+            "financial services companies Bay Area corporate philanthropy nonprofit event sponsorship",
+            "retail consumer brands San Francisco Bay Area nonprofit sponsorship donation program",
+            "healthcare biotech companies Bay Area AAPI community nonprofit sponsorship",
+            "Bay Area Fortune 500 companies corporate foundation nonprofit event cash sponsorship",
         ],
+        # Family offices and AAPI executives who may sponsor or make major gifts.
+        # Focused on publicly known AAPI founders, VCs, and executives in Bay Area.
         "FAMILY_OFFICES": [
             "San Francisco Bay Area family office philanthropic giving AAPI community",
             "Bay Area private foundation charitable giving Asian American nonprofits",
             "Silicon Valley family office impact investing community sponsorship",
+            "AAPI venture capitalists investors San Francisco Bay Area philanthropic giving",
+            "Asian American foundation endowment Bay Area charitable donations nonprofits",
+        ],
+        # AAPI executives and high net worth individuals known for Bay Area philanthropy.
+        "AAPI_EXECUTIVES": [
+            "AAPI tech executives founders San Francisco Bay Area philanthropic community giving",
+            "Asian American C-suite executives Bay Area nonprofit board members donors",
+            "Silicon Valley AAPI founders philanthropists charitable giving Bay Area",
+            "Asian American venture capitalists Bay Area community impact nonprofit support",
+            "notable AAPI business leaders San Francisco Bay Area philanthropic foundations",
         ],
         # Added SF and Napa tourism boards as institutional donors/sponsors.
         "AAPI_COMMUNITY": [
